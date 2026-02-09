@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhema — Privacy Policy</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 24px 16px;
+            background: #faf8f4;
+        }
+        h1 { font-size: 1.6rem; margin-bottom: 4px; color: #1C2541; }
+        h2 { font-size: 1.15rem; margin-top: 28px; margin-bottom: 8px; color: #1C2541; }
+        p, li { font-size: 0.95rem; margin-bottom: 10px; }
+        ul { padding-left: 20px; }
+        table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 0.9rem; }
+        th, td { text-align: left; padding: 8px 10px; border: 1px solid #ddd; }
+        th { background: #1C2541; color: #fff; }
+        .date { color: #666; font-size: 0.85rem; margin-bottom: 20px; }
+        a { color: #1C2541; }
+    </style>
+</head>
+<body>
+    <h1>Rhema — Privacy Policy</h1>
+    <p class="date">Effective Date: February 8, 2026</p>
+
+    <p>Rhema ("we", "us", "our") is a Bible tutoring app that uses artificial intelligence to help users study Scripture. This policy explains what data we collect, why, and how we protect it.</p>
+
+    <h2>1. Data We Collect</h2>
+    <table>
+        <tr><th>Data</th><th>Purpose</th><th>Shared With</th></tr>
+        <tr><td>Email address</td><td>Account authentication</td><td>Supabase (auth provider)</td></tr>
+        <tr><td>Chat messages</td><td>AI tutoring conversations</td><td>Anthropic (AI provider)</td></tr>
+        <tr><td>Parent email (optional)</td><td>Safety notifications for minors</td><td>Stored in Supabase</td></tr>
+        <tr><td>Daily message counts</td><td>Free-tier rate limiting</td><td>None (internal only)</td></tr>
+        <tr><td>Violation logs</td><td>Safety &amp; content moderation</td><td>None (internal only)</td></tr>
+        <tr><td>Subscription status</td><td>Premium access management</td><td>Apple (via App Store)</td></tr>
+        <tr><td>Photos (optional, ephemeral)</td><td>Image-based Bible questions</td><td>Anthropic (not stored)</td></tr>
+    </table>
+
+    <h2>2. Data We Do NOT Collect</h2>
+    <ul>
+        <li>Location or GPS data</li>
+        <li>Device identifiers or advertising IDs</li>
+        <li>Analytics or usage tracking</li>
+        <li>Contacts, calendars, or health data</li>
+        <li>Browsing history</li>
+    </ul>
+
+    <h2>3. How We Use Your Data</h2>
+    <ul>
+        <li><strong>Authentication:</strong> Your email is used solely to create and secure your account via Supabase Auth.</li>
+        <li><strong>AI Tutoring:</strong> Chat messages are sent to Anthropic's Claude API to generate responses. Messages are associated with your account for conversation history.</li>
+        <li><strong>Images:</strong> Photos you share are sent to Anthropic for analysis and are not stored on our servers after processing.</li>
+        <li><strong>Safety:</strong> Messages are screened for harmful content. Violations are logged to enforce our community guidelines and protect minors.</li>
+        <li><strong>Rate Limiting:</strong> Daily message counts enforce free-tier limits. No content is analyzed for this purpose.</li>
+    </ul>
+
+    <h2>4. Third-Party Services</h2>
+    <ul>
+        <li><strong>Supabase</strong> — Authentication and database hosting. <a href="https://supabase.com/privacy">Supabase Privacy Policy</a></li>
+        <li><strong>Anthropic</strong> — AI model provider (Claude). <a href="https://www.anthropic.com/privacy">Anthropic Privacy Policy</a></li>
+        <li><strong>Apple</strong> — Subscription and payment processing via the App Store. <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a></li>
+    </ul>
+
+    <h2>5. Children's Privacy (COPPA)</h2>
+    <p>Rhema is designed to be safe for users of all ages. We do not knowingly collect personal information from children under 13 beyond what is necessary for account creation (email address). Parents or guardians may optionally provide a parent email address for safety notifications. The app includes content filtering and a strike system to maintain a safe environment.</p>
+
+    <h2>6. Data Retention</h2>
+    <ul>
+        <li>Chat conversations are retained as long as your account is active.</li>
+        <li>You can delete individual conversations from within the app.</li>
+        <li>Violation logs are retained for 30 days for scoring purposes.</li>
+        <li>Account deletion removes all associated data. Contact us to request deletion.</li>
+    </ul>
+
+    <h2>7. Data Security</h2>
+    <p>All data is transmitted over HTTPS/TLS. Authentication tokens use ES256 (elliptic curve) cryptography. Database access is protected by Row Level Security (RLS) policies ensuring users can only access their own data.</p>
+
+    <h2>8. Your Rights</h2>
+    <p>You may request access to, correction of, or deletion of your personal data by contacting us. We will respond within 30 days.</p>
+
+    <h2>9. Changes to This Policy</h2>
+    <p>We may update this policy from time to time. Changes will be posted on this page with an updated effective date.</p>
+
+    <h2>10. Contact</h2>
+    <p>For privacy questions or data requests, contact us at: <strong>privacy@rhema.app</strong></p>
+</body>
+</html>
