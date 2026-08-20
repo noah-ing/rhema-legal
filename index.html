@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy policy and terms of service for the Rhema app.">
+    <title>Rhema — Legal Policies</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <style>
+        :root {
+            color-scheme: light;
+            --background: #faf8f4;
+            --surface: #ffffff;
+            --text: #1a1a1a;
+            --muted: #656565;
+            --accent: #1c2541;
+            --border: #ddd8cf;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: grid;
+            place-items: center;
+            padding: 24px 16px;
+            background: var(--background);
+            color: var(--text);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.6;
+        }
+
+        main {
+            width: min(100%, 700px);
+            padding: clamp(28px, 6vw, 48px);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            background: var(--surface);
+            box-shadow: 0 14px 40px rgba(28, 37, 65, 0.08);
+        }
+
+        h1 {
+            margin: 0 0 8px;
+            color: var(--accent);
+            font-size: clamp(1.8rem, 5vw, 2.4rem);
+            line-height: 1.2;
+        }
+
+        p { margin: 0; }
+
+        .intro { color: var(--muted); }
+
+        nav {
+            display: grid;
+            gap: 12px;
+            margin: 28px 0;
+        }
+
+        a {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+            padding: 16px 18px;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            color: var(--accent);
+            font-weight: 650;
+            text-decoration: none;
+        }
+
+        a:hover, a:focus-visible {
+            border-color: var(--accent);
+            outline: none;
+            background: #f6f3ed;
+        }
+
+        .date {
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Rhema legal policies</h1>
+        <p class="intro">Review the current privacy and service terms for the Rhema app.</p>
+
+        <nav aria-label="Legal documents">
+            <a href="privacy.html"><span>Privacy Policy</span><span aria-hidden="true">→</span></a>
+            <a href="terms.html"><span>Terms of Service</span><span aria-hidden="true">→</span></a>
+        </nav>
+
+        <p class="date">Current documents: effective February 8, 2026.</p>
+    </main>
+</body>
+</html>
