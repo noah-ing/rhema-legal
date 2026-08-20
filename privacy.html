@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy policy for the Rhema app.">
     <title>Rhema — Privacy Policy</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -24,17 +26,22 @@
         th { background: #1C2541; color: #fff; }
         .date { color: #666; font-size: 0.85rem; margin-bottom: 20px; }
         a { color: #1C2541; }
+        .back { display: inline-block; margin-bottom: 18px; font-size: 0.9rem; }
+        .table-wrap { overflow-x: auto; }
     </style>
 </head>
 <body>
+    <main>
+    <a class="back" href="index.html">← Legal policies</a>
     <h1>Rhema — Privacy Policy</h1>
     <p class="date">Effective Date: February 8, 2026</p>
 
     <p>Rhema ("we", "us", "our") is a Bible tutoring app that uses artificial intelligence to help users study Scripture. This policy explains what data we collect, why, and how we protect it.</p>
 
     <h2>1. Data We Collect</h2>
+    <div class="table-wrap">
     <table>
-        <tr><th>Data</th><th>Purpose</th><th>Shared With</th></tr>
+        <tr><th scope="col">Data</th><th scope="col">Purpose</th><th scope="col">Shared With</th></tr>
         <tr><td>Email address</td><td>Account authentication</td><td>Supabase (auth provider)</td></tr>
         <tr><td>Chat messages</td><td>AI tutoring conversations</td><td>Anthropic (AI provider)</td></tr>
         <tr><td>Parent email (optional)</td><td>Safety notifications for minors</td><td>Stored in Supabase</td></tr>
@@ -43,6 +50,7 @@
         <tr><td>Subscription status</td><td>Premium access management</td><td>Apple (via App Store)</td></tr>
         <tr><td>Photos (optional, ephemeral)</td><td>Image-based Bible questions</td><td>Anthropic (not stored)</td></tr>
     </table>
+    </div>
 
     <h2>2. Data We Do NOT Collect</h2>
     <ul>
@@ -65,7 +73,7 @@
     <h2>4. Third-Party Services</h2>
     <ul>
         <li><strong>Supabase</strong> — Authentication and database hosting. <a href="https://supabase.com/privacy">Supabase Privacy Policy</a></li>
-        <li><strong>Anthropic</strong> — AI model provider (Claude). <a href="https://www.anthropic.com/privacy">Anthropic Privacy Policy</a></li>
+        <li><strong>Anthropic</strong> — AI model provider (Claude). <a href="https://www.anthropic.com/legal/privacy">Anthropic Privacy Policy</a></li>
         <li><strong>Apple</strong> — Subscription and payment processing via the App Store. <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a></li>
     </ul>
 
@@ -90,6 +98,7 @@
     <p>We may update this policy from time to time. Changes will be posted on this page with an updated effective date.</p>
 
     <h2>10. Contact</h2>
-    <p>For privacy questions or data requests, contact us at: <strong>privacy@rhema.app</strong></p>
+    <p>For privacy questions or data requests, contact us at: <strong><a href="mailto:privacy@rhema.app">privacy@rhema.app</a></strong></p>
+    </main>
 </body>
 </html>
